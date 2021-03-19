@@ -1,4 +1,4 @@
-/* GENERAL **************************/
+/* MY GENERAL CLASSES **********************/
 .debug {
   background-color: rgba(238, 26, 11, 0.1);
 }
@@ -11,16 +11,70 @@
 .mc_bgcwhite {
   background-color: white;
 }
-/* MY GENERAL CLASSES **********************/
 
+.mc_bgcgrey {
+  background-color: #f3f5f9;
+}
 /* / MY GENERAL CLASSES **********************/
 
 /* HEADER ****************************************/
-.mc_nav {
-  margin-bottom: 0;
-  background-color: white;
-   /* padding-top: 10px; */
-   /* min-height: 70px; */
+#nav-bar .container-fluid {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.mc_link_nav {
+  margin-left: 20px;
+  line-height: 67px;
+  font-size: 1.2em;
+}
+
+.mc_link_nav a {
+  color: black;
+}
+
+.mc_link_nav:hover a {
+  color: coral;
+}
+
+.mc_inline {
+  display: inline-block;
+}
+
+.mc_logo {
+  width: 170px;
+  margin-left: -15px;
+}
+
+.mc_menu {
+  top: 80%;
+  right: 0;
+}
+
+.mc_hamburger {
+  color: #2485fd;
+  border: transparent;
+}
+
+.mc_hamburger:hover {
+  color: coral;
+}
+
+.mc_glyphicon_hamburger {
+  font-size: x-large;
+}
+
+.mc_btn_blue {
+  border-color: #2485fd;
+}
+
+a.mc_btn_blue {
+  color: #2485fd;
 }
 /* / HEADER **************************************/
 
@@ -30,11 +84,12 @@
   background-image: url(../img/bg-banner-home.jpg);
   background-size: cover;
   background-position: bottom;
+  margin-top: 60px;
 }
 
 #customers .container-fluid {
   min-height: 250px;
-  background-color: #F3F5F9;
+  background-color: #f3f5f9;
 }
 
 #deploy .container-fluid {
@@ -44,7 +99,7 @@
 
 #developers.container-fluid {
   min-height: 650px;
-  background-color: #F3F5F9;
+  background-color: #f3f5f9;
 }
 
 #features .container-fluid {
@@ -54,24 +109,24 @@
 
 #service .container-fluid {
   min-height: 350px;
-  background: -webkit-linear-gradient(-90deg, #0046C4 0%, #00209B 100%);
+  background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
 
 #team .container-fluid {
   min-height: 650px;
-  background-color: #F3F5F9;
+  background-color: #f3f5f9;
 }
 
 #start .container-fluid {
   min-height: 250px;
-  background: -webkit-linear-gradient(-90deg, #0046C4 0%, #00209B 100%);
+  background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
 /* / MAIN ********************/
 
 /* FOOTER ********************/
 footer {
   min-height: 400px;
-  background-color: #021C4D;
+  background-color: #021c4d;
 }
 /* / FOOTER ********************/
 

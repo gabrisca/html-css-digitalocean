@@ -21,63 +21,70 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-default mc_nav">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+    <nav id="nav-bar">
+      <div class="container-fluid mc_bgcwhite">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Brand</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+          <div class="row">
+            <div class="col-xs-6 col-lg-2">
+              <img class="mc_logo" src="assets/img/logo.png" alt="">
+            </div>
+            <div class="col-lg-10 hidden-xs hidden-sm hidden-md visible-lg text-right">
+              <div class="row">
+                <div class="col-lg-6 ">
+                  <ul>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#portfolio">Products <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#about">Customers</a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#contact">Community <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#contact">Pricing</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#portfolio">Docs</a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#about">Support <i class="fas fa-angle-down"></i></a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a href="#contact">Login</a>
+                    </li>
+                    <li class="mc_inline mc_link_nav">
+                      <a class="btn btn-default mc_btn_blue" href="#" role="button">Sign Up</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+            </div>
+            <div class="col-xs-6 visible-xs visible-sm visible-md hidden-lg text-right">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle mc_hamburger" type="button" id="dropdownMenu1"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="glyphicon glyphicon-menu-hamburger mc_glyphicon_hamburger" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu mc_menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#portfolio">Products</a></li>
+                  <li><a href="#about">Customers</a></li>
+                  <li><a href="#contact">Community</a></li>
+                  <li><a href="#contact">Pricing</a></li>
+                  <li><a href="#contact">Docs</a></li>
+                  <li><a href="#contact">Support</a></li>
+                  <li><a href="#contact">Login</a></li>
+                  <li><a href="#contact">Sign Up</a></li>
                 </ul>
-              </li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div> <!-- /.container-->
-      </div><!-- /.container-fluid -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -85,25 +92,25 @@
 
     <section id="jumbotron">
       <div class="container-fluid debug">
- <!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row">
             JUMBOTRON
           </div>
         </div>
- <!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
       </div>
     </section>
 
     <section id="customers">
       <div class="container-fluid text-center debug">
- <!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h5>titolo</h5>
           </div>
         </div>
- <!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col
@@ -114,13 +121,13 @@
             col
           </div>
         </div>
-      <!-- sempre container > row > col -->    
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12 link
           </div>
         </div>
-  
+
       </div>
     </section>
 
@@ -132,15 +139,15 @@
             col12 <h5>titolo</h5>
             col12<h6>sottotitolo</h6>
           </div>
-        </div>  
+        </div>
         <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col4
-            
+
             col 8{
-                col12 ?
-                col12 ?}
+            col12 ?
+            col12 ?}
           </div>
         </div>
 
@@ -149,14 +156,14 @@
 
     <section id="developers">
       <div class="container-fluid text-center debug">
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h5>titolo</h5>
             col12<h6>sottotitolo</h6>
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12 unico blocco fontawsome
@@ -167,13 +174,13 @@
 
     <section id="features">
       <div class="container-fluid text-center debug">
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h5>titolo</h5>
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col4
@@ -181,41 +188,41 @@
             col4
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
       </div>
     </section>
 
     <section id="service">
       <div class="container-fluid text-center debug">
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h2>titolo</h2>
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
-            col6  ?
-            col6  ?
+            col6 ?
+            col6 ?
 
             NO TABLE
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
       </div>
     </section>
 
     <section id="team">
       <div class="container-fluid text-center debug">
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h5>titolo</h5>
             col12<h6>sottotitolo</h6>
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12 unico blocco fontawsome
@@ -226,19 +233,19 @@
 
     <section id="service">
       <div class="container-fluid text-center debug">
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             col12<h2>titolo</h2>
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
         <div class="container debug">
           <div class="row debug">
             button
           </div>
         </div>
-<!-- sempre container > row > col -->
+        <!-- sempre container > row > col -->
       </div>
     </section>
 
