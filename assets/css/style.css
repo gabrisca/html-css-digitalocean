@@ -1,24 +1,78 @@
 /* GENERAL **************************/
+.debug {
+  background-color: rgba(238, 26, 11, 0.1);
+}
+
 .debug [class*="col-"] {
   background-color: rgba(238, 11, 11, 0.1);
   border: 1px solid black;
 }
 /* / GENERAL **************************/
+.mc_bgcwhite {
+  background-color: white;
+}
+/* MY GENERAL CLASSES **********************/
 
-/* /MY CLASSES **********************/
+/* / MY GENERAL CLASSES **********************/
 
-/* / MY CLASSES **********************/
-
-/* HEADER ********************/
-
-/* / HEADER ********************/
+/* HEADER ****************************************/
+.mc_nav {
+  margin-bottom: 0;
+  background-color: white;
+   /* padding-top: 10px; */
+   /* min-height: 70px; */
+}
+/* / HEADER **************************************/
 
 /* MAIN ********************/
+#jumbotron .container-fluid {
+  min-height: 500px;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
 
+#customers .container-fluid {
+  min-height: 250px;
+  background-color: #F3F5F9;
+}
+
+#deploy .container-fluid {
+  min-height: 650px;
+  background-color: white;
+}
+
+#developers.container-fluid {
+  min-height: 650px;
+  background-color: #F3F5F9;
+}
+
+#features .container-fluid {
+  min-height: 350px;
+  background-color: white;
+}
+
+#service .container-fluid {
+  min-height: 350px;
+  background: -webkit-linear-gradient(-90deg, #0046C4 0%, #00209B 100%);
+}
+
+#team .container-fluid {
+  min-height: 650px;
+  background-color: #F3F5F9;
+}
+
+#start .container-fluid {
+  min-height: 250px;
+  background: -webkit-linear-gradient(-90deg, #0046C4 0%, #00209B 100%);
+}
 /* / MAIN ********************/
 
 /* FOOTER ********************/
-
+footer {
+  min-height: 400px;
+  background-color: #021C4D;
+}
 /* / FOOTER ********************/
 
 /* MEDIA QUERIES ******************/
