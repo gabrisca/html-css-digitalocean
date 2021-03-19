@@ -131,5 +131,27 @@ footer {
 /* / FOOTER ********************/
 
 /* MEDIA QUERIES ******************/
+@media all and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 /* / MEDIA QUERIES ******************/
