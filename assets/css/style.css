@@ -15,6 +15,14 @@
 .mc_bgcgrey {
   background-color: #f3f5f9;
 }
+
+.mc_colorwhite {
+  color: white;
+}
+
+.mc_colorwhitesmoke {
+  color: #B1C6FF;
+}
 /* / MY GENERAL CLASSES **********************/
 
 /* HEADER ****************************************/
@@ -78,7 +86,13 @@ a.mc_btn_blue {
 }
 /* / HEADER **************************************/
 
-/* MAIN ********************/
+
+/* ************************************************* */
+/* ****     M        A       I        N      ******* */
+/* ************************************************* */
+
+
+/* ******  J   U   M   B   T   R   O   N   ******/
 #jumbotron .container-fluid {
   min-height: 500px;
   background-image: url(../img/bg-banner-home.jpg);
@@ -87,6 +101,33 @@ a.mc_btn_blue {
   margin-top: 60px;
 }
 
+#jumbotron .mc_jumbo_container {
+  padding-top: 60px;
+}
+
+#jumbotron .mc_jumbo_container h1 {
+  font-size: 4.4em;
+}
+
+#jumbotron .mc_jumbo_container h4 {
+  font-size: 1.6em;
+  line-height: 1.4;
+}
+
+#jumbotron .mc_jumbo {
+  
+}
+
+#jumbotron .mc_jumbo_left {
+
+}
+
+#jumbotron .mc_jumbo_right {
+
+}
+
+
+/* ****** /////// J   U   M   B   T   R   O   N   ******/
 #customers .container-fluid {
   min-height: 250px;
   background-color: #f3f5f9;
