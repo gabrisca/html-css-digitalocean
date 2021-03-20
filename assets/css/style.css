@@ -32,12 +32,22 @@
   border-radius: 5px;
 }
 
+.mc_padding_zero {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* **********+BUTTON**** */
+a {
+  color: #2485fd;
+  text-decoration: none;
+}
+
 .mc_btn_blue {
   border-color: #2485fd;
 }
 
-a.mc_btn_blue {
+.mc_btn_blue span{
   color: #2485fd;
 }
 
@@ -55,9 +65,11 @@ a.mc_btn_blue {
 }
 /* **********+BUTTON**** */
 
-/* / MY GENERAL CLASSES **********************/
+/* ////////// MY GENERAL CLASSES ///////////////*/
 
-/* HEADER ****************************************/
+/* ************************************************* */
+/* *********     H   E   A   D   E   R      ******** */
+/* ************************************************* */
 #nav-bar .container-fluid {
   height: 60px;
   width: 100%;
@@ -108,7 +120,7 @@ a.mc_btn_blue {
 .mc_glyphicon_hamburger {
   font-size: x-large;
 }
-/* / HEADER **************************************/
+/* ////////////////// HEADER //////////////*/
 
 
 /* ************************************************* */
@@ -118,7 +130,7 @@ a.mc_btn_blue {
 
 /* ******  J   U   M   B   T   R   O   N   ******/
 #jumbotron .container-fluid {
-  min-height: 500px;
+  /* min-height: 500px; */
   background-image: url(../img/bg-banner-home.jpg);
   background-size: cover;
   background-position: bottom;
@@ -140,6 +152,10 @@ a.mc_btn_blue {
 
 #jumbotron .mc_jumbo {
   margin-bottom: 20px;
+}
+
+#jumbotron .mc_jumbo.mc_jumbo_left {
+
 }
 
 #jumbotron .mc_jumbo:nth-child(2) {
@@ -183,16 +199,32 @@ a.mc_btn_blue {
 #jumbotron .mc_form {
   height: 40px;
 }
+/* ///////// J   U   M   B   T   R   O   N  ///////*/
 
-/* .mc_marginauto {
-  margin: 0 auto; 
-} */
-
-/* ****** /////// J   U   M   B   T   R   O   N   ******/
+/* ******  C    U   S   T   O   M   E   R   S  ******/
 #customers .container-fluid {
   min-height: 250px;
-  background-color: #f3f5f9;
 }
+
+#customers h5 {
+  text-transform: uppercase;
+  color: #949CB2;
+  font-size: 1.1em;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#customers img {
+  height: 100px;
+  width: 151px;
+}
+
+#customers p {
+  margin-top: 35px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+/* //////// C    U   S   T   O   M   E   R   S ///////*/
 
 #deploy .container-fluid {
   min-height: 650px;
@@ -204,7 +236,7 @@ a.mc_btn_blue {
   background-color: #f3f5f9;
 }
 
-#features .container-fluid {
+#pricing .container-fluid {
   min-height: 350px;
   background-color: white;
 }
@@ -239,23 +271,35 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
   }
+  #jumbotron .mc_jumbo.mc_jumbo_left {
+    font-size: 90%;
+}
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .mc_container {
     width: 100%;
   }
+  #jumbotron .mc_jumbo.mc_jumbo_left {
+    font-size: 90%;
+}
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .mc_container {
     width: 100%;
   }
+  #jumbotron .mc_jumbo.mc_jumbo_left {
+    font-size: 90%;
+}
 }
 
 @media all and (min-width: 1200px) {
   .mc_container {
     width: 1170px;
   }
+  #jumbotron .mc_jumbo.mc_jumbo_left {
+    font-size: 100%;
+}
 }
 /* / MEDIA QUERIES ******************/
