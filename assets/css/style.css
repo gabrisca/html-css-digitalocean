@@ -37,6 +37,10 @@
   padding-right: 0px;
 }
 
+.mc_margin_bottom {
+  margin-bottom: 20px;
+}
+
 /* **********+BUTTON**** */
 a {
   color: #2485fd;
@@ -203,7 +207,7 @@ a {
 
 /* ******  C    U   S   T   O   M   E   R   S  ******/
 #customers .container-fluid {
-  min-height: 250px;
+  /* min-height: 250px; */
 }
 
 #customers h5 {
@@ -226,10 +230,72 @@ a {
 }
 /* //////// C    U   S   T   O   M   E   R   S ///////*/
 
-#deploy .container-fluid {
-  min-height: 650px;
-  background-color: white;
+/* ******  C  O  N  F  I  G  U  R  A  T  I  O  N  ****/
+#configuration .container-fluid {
+  /* min-height: 650px; */
 }
+
+#configuration .mc_conftop {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+#configuration .mc_conftop h2 {
+  font-size: 2.3em;
+  font-weight: 500;
+}
+
+#configuration .mc_conftop p {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #949CB2;
+  margin-bottom: 30px;
+}
+
+#configuration .mc_confbottom {
+  margin-bottom: 30px;
+}
+
+#configuration .mc_confbottom-left {
+  margin-left: 0px;
+}
+
+#configuration .mc_confbottom p {
+  font-size: 1.2em;
+  color: #949CB2;
+  margin-bottom: 20px;
+}
+
+#configuration .mc_linegrey {
+  border-left: 3px solid lightgray;
+  min-height: 250px;
+}
+
+#configuration ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+#configuration .mc_li {
+  line-height: 48px;
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #949CB2;
+}
+
+#configuration .mc_li a {
+  color: #949CB2;
+}
+
+#configuration .mc_li a:hover {
+  color: #2485fd;
+}
+
+#configuration .mc_padding_right {
+  padding-right: 36px;
+}
+/* //////// C  O  N  F  I  G  U  R  A  T  I  O  N  ////*/
 
 #developers.container-fluid {
   min-height: 650px;
@@ -273,7 +339,10 @@ footer {
   }
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
-}
+  }
+  #configuration .mc_confbottom-left {
+    margin-left: 14px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -282,7 +351,10 @@ footer {
   }
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
-}
+  }
+  #configuration .mc_confbottom-left {
+    margin-left: 0px;
+  }
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -291,7 +363,10 @@ footer {
   }
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
-}
+  }
+  #configuration .mc_confbottom-left {
+    margin-left: 0px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -300,6 +375,9 @@ footer {
   }
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 100%;
-}
+  }
+  #configuration .mc_confbottom-left {
+    margin-left: 0px;
+  }
 }
 /* / MEDIA QUERIES ******************/
