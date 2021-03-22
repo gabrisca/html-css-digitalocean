@@ -13,6 +13,11 @@
   width: auto;
 }
 
+.mc_width70 {
+  width: 70%;
+  margin: 0px auto;
+}
+
 .mc_width80 {
   width: 80%;
   margin: 0px auto;
@@ -128,52 +133,61 @@ a {
   margin-bottom: 15px;
 }
 
-.mc_carousel_top > img {
+.mc_carousel_top>img {
   width: 80%;
 }
 
-.mc_carousel_bottom > p {
+.mc_carousel_bottom>p {
   font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 75px;
 }
 
-.mc_carousel_top > .mc_chevron_left {
+.mc_carousel_top>.mc_chevron_left {
   position: absolute;
   top: 50%;
   right: 90%;
   color: #6f7b97;
 }
 
-.mc_carousel_top > .mc_chevron_left:active {
+.mc_carousel_top>.mc_chevron_left:active {
   color: #051d4f;
 }
 
-.mc_carousel_top > .mc_chevron_right {
+.mc_carousel_top>.mc_chevron_left:hover {
+  cursor: pointer;
+}
+
+.mc_carousel_top>.mc_chevron_right {
   position: absolute;
   top: 50%;
   left: 90%;
   color: #051d4f;
 }
-.mc_carousel_top > .mc_chevron_right:active {
+
+.mc_carousel_top>.mc_chevron_right:active {
   color: #6f7b97;
+}
+
+.mc_carousel_top>.mc_chevron_right:hover {
+  cursor: pointer;
 }
 
 .mc_carousel_top .fas {
   font-size: xx-large;
 }
 
-.mc_carousel_bottom > .mc_circle {
+.mc_carousel_bottom>.mc_circle {
   color: #2485fd;
   margin-bottom: 45px;
 }
 
-.mc_carousel_bottom > .mc_circle > .mc_fa_circle:active {
+.mc_carousel_bottom>.mc_circle>.mc_fa_circle:active {
   background-color: #2485fd;
   border-radius: 50%;
 }
 
-.mc_carousel_bottom > .mc_circle > .mc_fa_circle_blue:active {
+.mc_carousel_bottom>.mc_circle>.mc_fa_circle_blue:active {
   color: white;
   border-radius: 50%;
 }
@@ -268,8 +282,7 @@ a {
   margin-bottom: 20px;
 }
 
-#jumbotron .mc_jumbo.mc_jumbo_left {
-}
+#jumbotron .mc_jumbo.mc_jumbo_left {}
 
 #jumbotron .mc_jumbo:nth-child(2) {
   margin-bottom: 60px;
@@ -351,11 +364,6 @@ a {
   margin-bottom: 30px;
 }
 
-/* #configuration .mc_conftop h2 {
-  font-size: 2.3em;
-  font-weight: 500;
-} */
-
 #configuration .mc_conftop p {
   margin-bottom: 30px;
 }
@@ -414,13 +422,6 @@ a {
   margin-bottom: 30px;
 }
 
-/* #developers .mc_devtop h2 {
-  font-size: 2.3em;
-  font-weight: 500;
-  margin-top: 30px;
-  margin-bottom: 20px;
-} */
-
 #developers .mc_devtop p {
   margin-bottom: 100px;
 }
@@ -440,7 +441,7 @@ a {
 
 /* ********  S    E   R   V   I   C   E    *******/
 #service .container-fluid {
-  min-height: 350px;
+  /* min-height: 350px; */
   background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
 
@@ -473,21 +474,51 @@ a {
   color: #29b1cb;
 }
 
-/* /////////  S    E   R   V
-}
+/* /////////  S    E   R   V   I   C   E   //////*/
 
-
-   I   C   E   //////*/
-
+/* ********   T   E   A   M    *******/
 #team .container-fluid {
-  min-height: 650px;
+  /* min-height: 650px; */
   background-color: #f3f5f9;
 }
 
+#team .mc_p_subtitle_container {
+  margin-bottom: 10px;
+}
+
+#team .mc_team_box {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#team .mc_team_box img {
+  margin-bottom: 20px;
+}
+
+#team .mc_team_box p.mc_colorblue:nth-child(3) {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+#team .mc_team_box p.mc_colorblue:nth-child(4) {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+#team .mc_link .fas {
+  font-size: medium;
+}
+
+/* /////////  T   E   A   M   ////////*/
+
+/* ********** S   T   A   R   T   **********/
 #start .container-fluid {
   min-height: 250px;
   background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
+/* /////////  S   T   A   R   T   ////////*/
 
 /* / MAIN ********************/
 
