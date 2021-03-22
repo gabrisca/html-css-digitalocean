@@ -12,6 +12,11 @@
   width: auto;
 }
 
+.mc_width80 {
+  width: 80%;
+  margin: 0px auto;
+}
+
 .mc_bgcwhite {
   background-color: white;
 }
@@ -24,8 +29,12 @@
   color: white;
 }
 
+.mc_colorblue {
+  color: #051d4f;
+}
+
 .mc_colorwhitesmoke {
-  color: #B1C6FF;
+  color: #b1c6ff;
 }
 
 .mc_bradius {
@@ -51,12 +60,12 @@ a {
   border-color: #2485fd;
 }
 
-.mc_btn_blue span{
+.mc_btn_blue span {
   color: #2485fd;
 }
 
 .mc_btn_bg_blue {
-  background-color: #579AFF;
+  background-color: #579aff;
   color: white;
   border-color: transparent;
 }
@@ -65,7 +74,7 @@ a {
   background-color: white;
   color: black;
   border-color: transparent;
-  box-shadow: 5px 6px 7px -6px #7e7575
+  box-shadow: 5px 6px 7px -6px #7e7575;
 }
 /* **********+BUTTON**** */
 
@@ -126,11 +135,9 @@ a {
 }
 /* ////////////////// HEADER //////////////*/
 
-
 /* ************************************************* */
 /* ****     M        A       I        N      ******* */
 /* ************************************************* */
-
 
 /* ******  J   U   M   B   T   R   O   N   ******/
 #jumbotron .container-fluid {
@@ -159,14 +166,13 @@ a {
 }
 
 #jumbotron .mc_jumbo.mc_jumbo_left {
-
 }
 
 #jumbotron .mc_jumbo:nth-child(2) {
   margin-bottom: 60px;
 }
 
-#jumbotron .mc_jumbo_left h4{
+#jumbotron .mc_jumbo_left h4 {
   margin-top: 12px;
 }
 
@@ -194,7 +200,7 @@ a {
   position: relative;
 }
 
-#jumbotron .mc_btn_jumbo img{
+#jumbotron .mc_btn_jumbo img {
   height: 20px;
   position: absolute;
   left: 2%;
@@ -212,7 +218,7 @@ a {
 
 #customers h5 {
   text-transform: uppercase;
-  color: #949CB2;
+  color: #949cb2;
   font-size: 1.1em;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -248,12 +254,12 @@ a {
 #configuration .mc_conftop p {
   font-size: 1.6em;
   font-weight: 500;
-  color: #949CB2;
+  color: #949cb2;
   margin-bottom: 30px;
 }
 
 #configuration .mc_confbottom {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 #configuration .mc_confbottom-left {
@@ -262,7 +268,7 @@ a {
 
 #configuration .mc_confbottom p {
   font-size: 1.2em;
-  color: #949CB2;
+  color: #949cb2;
   margin-bottom: 20px;
 }
 
@@ -281,11 +287,11 @@ a {
   line-height: 48px;
   font-size: 1.4em;
   font-weight: 500;
-  color: #949CB2;
+  color: #949cb2;
 }
 
 #configuration .mc_li a {
-  color: #949CB2;
+  color: #949cb2;
 }
 
 #configuration .mc_li a:hover {
@@ -297,10 +303,68 @@ a {
 }
 /* //////// C  O  N  F  I  G  U  R  A  T  I  O  N  ////*/
 
+/* ********  D  E  V  E  L  O  P  E  R  S  *******/
 #developers.container-fluid {
   min-height: 650px;
-  background-color: #f3f5f9;
 }
+
+#developers .mc_devtop {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+#developers .mc_devtop h2 {
+  font-size: 2.3em;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#developers .mc_devtop p {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #949cb2;
+  margin-bottom: 100px;
+}
+
+#developers .mc_carousel {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#developers .mc_devbottom img {
+  width: 75%;
+}
+
+#developers .mc_devbottom p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+#developers .mc_chevron_left {
+  position: absolute;
+  top: 50%;
+  right: 88%;
+  color: #6f7b97;
+}
+
+#developers .mc_chevron_right {
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  color: #051d4f;
+}
+
+#developers .mc_carousel .fas {
+  font-size: xx-large;
+}
+
+#developers .mc_circle {
+  color: #2485fd;
+  margin-bottom: 45px;
+}
+/* ///////////  D  E  V  E  L  O  P  E  R  S  ////////*/
 
 #pricing .container-fluid {
   min-height: 350px;
@@ -378,6 +442,12 @@ footer {
   }
   #configuration .mc_confbottom-left {
     margin-left: 0px;
+  }
+  #developers .mc_devtop p {
+    margin-bottom: 30px;
+  }
+  #developers .mc_devbottom p {
+    margin-bottom: 10px;
   }
 }
 /* / MEDIA QUERIES ******************/
