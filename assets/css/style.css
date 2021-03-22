@@ -62,6 +62,10 @@
   border-radius: 5px;
 }
 
+.mc_bbottom_white {
+  border-bottom: 1px solid white;
+}
+
 .mc_padding_zero {
   padding-left: 0px;
   padding-right: 0px;
@@ -83,6 +87,10 @@
 .mc_link {
   font-size: 1.2em;
   font-weight: 500;
+}
+
+.mc_inline {
+  display: inline-block;
 }
 
 /* **********+BUTTON**** */
@@ -111,6 +119,7 @@ a {
   border-color: transparent;
   box-shadow: 5px 6px 7px -6px #7e7575;
 }
+
 /* **********+BUTTON**** */
 
 /* ********  C   A   R   O   U   S   E   L  ****** */
@@ -120,7 +129,7 @@ a {
 }
 
 .mc_carousel_top > img {
-  width: 75%;
+  width: 80%;
 }
 
 .mc_carousel_bottom > p {
@@ -132,15 +141,22 @@ a {
 .mc_carousel_top > .mc_chevron_left {
   position: absolute;
   top: 50%;
-  right: 88%;
+  right: 90%;
   color: #6f7b97;
+}
+
+.mc_carousel_top > .mc_chevron_left:active {
+  color: #051d4f;
 }
 
 .mc_carousel_top > .mc_chevron_right {
   position: absolute;
   top: 50%;
-  left: 88%;
+  left: 90%;
   color: #051d4f;
+}
+.mc_carousel_top > .mc_chevron_right:active {
+  color: #6f7b97;
 }
 
 .mc_carousel_top .fas {
@@ -161,6 +177,7 @@ a {
   color: white;
   border-radius: 50%;
 }
+
 /* //////// C   A   R   O   U   S   E   L   //////// */
 
 /* ////////// MY GENERAL CLASSES ///////////////*/
@@ -251,7 +268,8 @@ a {
   margin-bottom: 20px;
 }
 
-#jumbotron .mc_jumbo.mc_jumbo_left {}
+#jumbotron .mc_jumbo.mc_jumbo_left {
+}
 
 #jumbotron .mc_jumbo:nth-child(2) {
   margin-bottom: 60px;
@@ -339,7 +357,6 @@ a {
 } */
 
 #configuration .mc_conftop p {
- 
   margin-bottom: 30px;
 }
 
@@ -407,6 +424,7 @@ a {
 #developers .mc_devtop p {
   margin-bottom: 100px;
 }
+
 /* ///////////  D  E  V  E  L  O  P  E  R  S  ////////*/
 
 /* ********  P    R   I   C   I   N   G   *******/
@@ -414,21 +432,52 @@ a {
   /* min-height: 350px; */
 }
 
-/* #pricing .mc_pricingtop {
-  margin-top: 55px;
-} */
-
-
-/* #pricing .mc_pricingbottom {
-  margin-bottom: 55px;
-} */
+#pricing .mc_link {
+  font-size: 1.2em;
+}
 
 /* /////////  P    R   I   C   I   N   G   ////////*/
 
+/* ********  S    E   R   V   I   C   E    *******/
 #service .container-fluid {
   min-height: 350px;
   background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
+
+#service .mc_servicetop {
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+
+#service .mc_servicebottom {
+  margin-top: 0px;
+  margin-bottom: 55px;
+}
+
+#service .mc_margin_bottom {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#service .mc_service_row {
+  margin-bottom: 8px;
+  /* font-size: 12px; */
+  font-size: 1em;
+  color: #949cb2;
+}
+
+#service .mc_link {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #29b1cb;
+}
+
+/* /////////  S    E   R   V
+}
+
+
+   I   C   E   //////*/
 
 #team .container-fluid {
   min-height: 650px;
