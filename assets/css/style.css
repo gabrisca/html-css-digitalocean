@@ -44,6 +44,20 @@
   padding-right: 10px;
 }
 
+.mc_h2_container {
+  font-size: 2.3em;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mc_p_subtitle_container {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #949cb2;
+  margin-bottom: 30px;
+}
+
 .mc_bradius {
   border-radius: 5px;
 }
@@ -55,6 +69,11 @@
 
 .mc_padding_right_zero {
   padding-right: 0px;
+}
+
+.mp_row_margin {
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 .mc_margin_bottom {
@@ -92,8 +111,57 @@ a {
   border-color: transparent;
   box-shadow: 5px 6px 7px -6px #7e7575;
 }
-
 /* **********+BUTTON**** */
+
+/* ********  C   A   R   O   U   S   E   L  ****** */
+.mc_carousel_top {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.mc_carousel_top > img {
+  width: 75%;
+}
+
+.mc_carousel_bottom > p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+.mc_carousel_top > .mc_chevron_left {
+  position: absolute;
+  top: 50%;
+  right: 88%;
+  color: #6f7b97;
+}
+
+.mc_carousel_top > .mc_chevron_right {
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  color: #051d4f;
+}
+
+.mc_carousel_top .fas {
+  font-size: xx-large;
+}
+
+.mc_carousel_bottom > .mc_circle {
+  color: #2485fd;
+  margin-bottom: 45px;
+}
+
+.mc_carousel_bottom > .mc_circle > .mc_fa_circle:active {
+  background-color: #2485fd;
+  border-radius: 50%;
+}
+
+.mc_carousel_bottom > .mc_circle > .mc_fa_circle_blue:active {
+  color: white;
+  border-radius: 50%;
+}
+/* //////// C   A   R   O   U   S   E   L   //////// */
 
 /* ////////// MY GENERAL CLASSES ///////////////*/
 
@@ -265,15 +333,13 @@ a {
   margin-bottom: 30px;
 }
 
-#configuration .mc_conftop h2 {
+/* #configuration .mc_conftop h2 {
   font-size: 2.3em;
   font-weight: 500;
-}
+} */
 
 #configuration .mc_conftop p {
-  font-size: 1.6em;
-  font-weight: 500;
-  color: #949cb2;
+ 
   margin-bottom: 30px;
 }
 
@@ -331,79 +397,31 @@ a {
   margin-bottom: 30px;
 }
 
-#developers .mc_devtop h2 {
+/* #developers .mc_devtop h2 {
   font-size: 2.3em;
   font-weight: 500;
   margin-top: 30px;
   margin-bottom: 20px;
-}
+} */
 
 #developers .mc_devtop p {
-  font-size: 1.6em;
-  font-weight: 500;
-  color: #949cb2;
   margin-bottom: 100px;
 }
-
-#developers .mc_carousel {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-#developers .mc_devbottom img {
-  width: 75%;
-}
-
-#developers .mc_devbottom p {
-  font-size: 1.2em;
-  font-weight: 500;
-  margin-bottom: 75px;
-}
-
-#developers .mc_chevron_left {
-  position: absolute;
-  top: 50%;
-  right: 88%;
-  color: #6f7b97;
-}
-
-#developers .mc_chevron_right {
-  position: absolute;
-  top: 50%;
-  left: 88%;
-  color: #051d4f;
-}
-
-#developers .mc_carousel .fas {
-  font-size: xx-large;
-}
-
-#developers .mc_circle {
-  color: #2485fd;
-  margin-bottom: 45px;
-}
-
 /* ///////////  D  E  V  E  L  O  P  E  R  S  ////////*/
 
 /* ********  P    R   I   C   I   N   G   *******/
 #pricing .container-fluid {
-  min-height: 350px;
+  /* min-height: 350px; */
 }
 
-#pricing .mc_pricingtop {
+/* #pricing .mc_pricingtop {
   margin-top: 55px;
-}
+} */
 
-#pricing .mc_pricingtop h2 {
-  font-size: 2.3em;
-  font-weight: 500;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 
-#pricing .mc_pricingbottom {
+/* #pricing .mc_pricingbottom {
   margin-bottom: 55px;
-}
+} */
 
 /* /////////  P    R   I   C   I   N   G   ////////*/
 
