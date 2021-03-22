@@ -7,6 +7,7 @@
   background-color: rgba(238, 11, 11, 0.1);
   border: 1px solid black;
 }
+
 /* / GENERAL **************************/
 .mc_container {
   width: auto;
@@ -37,6 +38,12 @@
   color: #b1c6ff;
 }
 
+.mc_p_container {
+  font-size: 1.2em;
+  color: #949cb2;
+  padding-right: 10px;
+}
+
 .mc_bradius {
   border-radius: 5px;
 }
@@ -46,8 +53,17 @@
   padding-right: 0px;
 }
 
+.mc_padding_right_zero {
+  padding-right: 0px;
+}
+
 .mc_margin_bottom {
   margin-bottom: 20px;
+}
+
+.mc_link {
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 /* **********+BUTTON**** */
@@ -76,6 +92,7 @@ a {
   border-color: transparent;
   box-shadow: 5px 6px 7px -6px #7e7575;
 }
+
 /* **********+BUTTON**** */
 
 /* ////////// MY GENERAL CLASSES ///////////////*/
@@ -133,6 +150,7 @@ a {
 .mc_glyphicon_hamburger {
   font-size: x-large;
 }
+
 /* ////////////////// HEADER //////////////*/
 
 /* ************************************************* */
@@ -165,8 +183,7 @@ a {
   margin-bottom: 20px;
 }
 
-#jumbotron .mc_jumbo.mc_jumbo_left {
-}
+#jumbotron .mc_jumbo.mc_jumbo_left {}
 
 #jumbotron .mc_jumbo:nth-child(2) {
   margin-bottom: 60px;
@@ -209,6 +226,7 @@ a {
 #jumbotron .mc_form {
   height: 40px;
 }
+
 /* ///////// J   U   M   B   T   R   O   N  ///////*/
 
 /* ******  C    U   S   T   O   M   E   R   S  ******/
@@ -234,6 +252,7 @@ a {
   font-size: 1.2em;
   font-weight: 500;
 }
+
 /* //////// C    U   S   T   O   M   E   R   S ///////*/
 
 /* ******  C  O  N  F  I  G  U  R  A  T  I  O  N  ****/
@@ -267,8 +286,6 @@ a {
 }
 
 #configuration .mc_confbottom p {
-  font-size: 1.2em;
-  color: #949cb2;
   margin-bottom: 20px;
 }
 
@@ -301,11 +318,12 @@ a {
 #configuration .mc_padding_right {
   padding-right: 36px;
 }
+
 /* //////// C  O  N  F  I  G  U  R  A  T  I  O  N  ////*/
 
 /* ********  D  E  V  E  L  O  P  E  R  S  *******/
 #developers.container-fluid {
-  min-height: 650px;
+  /* min-height: 650px; */
 }
 
 #developers .mc_devtop {
@@ -364,12 +382,30 @@ a {
   color: #2485fd;
   margin-bottom: 45px;
 }
+
 /* ///////////  D  E  V  E  L  O  P  E  R  S  ////////*/
 
+/* ********  P    R   I   C   I   N   G   *******/
 #pricing .container-fluid {
   min-height: 350px;
-  background-color: white;
 }
+
+#pricing .mc_pricingtop {
+  margin-top: 55px;
+}
+
+#pricing .mc_pricingtop h2 {
+  font-size: 2.3em;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#pricing .mc_pricingbottom {
+  margin-bottom: 55px;
+}
+
+/* /////////  P    R   I   C   I   N   G   ////////*/
 
 #service .container-fluid {
   min-height: 350px;
@@ -385,6 +421,7 @@ a {
   min-height: 250px;
   background: -webkit-linear-gradient(-90deg, #0046c4 0%, #00209b 100%);
 }
+
 /* / MAIN ********************/
 
 /* FOOTER ********************/
@@ -392,6 +429,7 @@ footer {
   min-height: 400px;
   background-color: #021c4d;
 }
+
 /* / FOOTER ********************/
 
 /* MEDIA QUERIES ******************/
@@ -401,9 +439,11 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
   }
+
   #configuration .mc_confbottom-left {
     margin-left: 14px;
   }
@@ -413,9 +453,11 @@ footer {
   .mc_container {
     width: 100%;
   }
+
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
   }
+
   #configuration .mc_confbottom-left {
     margin-left: 0px;
   }
@@ -425,9 +467,11 @@ footer {
   .mc_container {
     width: 100%;
   }
+
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 90%;
   }
+
   #configuration .mc_confbottom-left {
     margin-left: 0px;
   }
@@ -437,17 +481,22 @@ footer {
   .mc_container {
     width: 1170px;
   }
+
   #jumbotron .mc_jumbo.mc_jumbo_left {
     font-size: 100%;
   }
+
   #configuration .mc_confbottom-left {
     margin-left: 0px;
   }
+
   #developers .mc_devtop p {
     margin-bottom: 30px;
   }
+
   #developers .mc_devbottom p {
     margin-bottom: 10px;
   }
 }
+
 /* / MEDIA QUERIES ******************/
