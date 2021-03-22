@@ -4,7 +4,7 @@
 }
 
 .debug [class*="col-"] {
-  background-color: rgba(238, 11, 11, 0.1);
+  /* background-color: rgba(238, 11, 11, 0.1); */
   border: 1px solid black;
 }
 
@@ -527,6 +527,27 @@ a {
 footer {
   min-height: 400px;
   background-color: #021c4d;
+}
+
+.mc_bg_green {
+  background-color: green;
+  min-height: 300px;
+}
+.mc_bg_yellow {
+  background-color: yellowgreen;
+  min-height: 300px;
+}
+.mc_bg_pink {
+  background-color: rgb(205, 50, 146);
+  min-height: 200px;
+}
+.mc_bg_heaven {
+  background-color: rgb(50, 161, 205);
+  min-height: 200px;
+}
+.mc_bg_heaven_w {
+  background-color: rgb(181, 221, 236);
+  min-height: 200px;
 }
 
 /* / FOOTER ********************/
