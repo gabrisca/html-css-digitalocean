@@ -550,6 +550,37 @@ footer {
   min-height: 200px;
 }
 
+footer .mc_img_footer {
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 1.2em;
+  color: #949cb2;
+}
+
+footer .mc_p_special {
+  margin-bottom: 0;
+}
+
+footer .mc_p_footer {
+  color: #48587A;
+}
+
+footer ul {
+  padding-left: 0px;
+  font-size: 1.6em;
+}
+
+footer a {
+  color: #949cb2;
+  margin-right: 12px;
+}
+footer a:hover {
+  color: white;
+}
+
+ 
 /* / FOOTER ********************/
 
 /* MEDIA QUERIES ******************/
