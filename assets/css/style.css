@@ -181,6 +181,7 @@ a {
 .mc_carousel_bottom>.mc_circle {
   color: #2485fd;
   margin-bottom: 45px;
+  cursor: pointer;
 }
 
 .mc_carousel_bottom>.mc_circle>.mc_fa_circle:active {
@@ -586,6 +587,7 @@ footer a:hover {
   bottom: 20%;
   left: 5%;
   z-index: 800;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
 }
 
 #shark .mc_shark {
